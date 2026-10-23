@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Success — Plain AI Commerce</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <main style="text-align:center;padding:4rem 1rem;">
+    <h1>Thank you!</h1>
+    <p>Your purchase is complete. Access has been granted for 30 days.</p>
+    <a href="/shop.html" class="cta">Continue to Shop</a>
+  </main>
+  <script>
+    // Simple access cookie
+    document.cookie = "access=granted; max-age=" + (30*24*60*60) + "; path=/";
+  </script>
+</body>
+</html>

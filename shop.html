@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop — Plain AI Commerce</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo" id="app-name">Plain AI Commerce</div>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/shop.html">Shop</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/setup.html">Setup</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Digital Products</h1>
+    <p>Simple packs. Clear prices. Instant access after payment.</p>
+
+    <div id="products" class="grid">
+      <!-- Filled by JS from /api/config -->
+      <div class="card">Loading products...</div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Payments powered by Stripe. Your data stays safe.</p>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
